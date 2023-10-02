@@ -1,0 +1,138 @@
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    
+}
+
+.vertical-line{
+    border-left: 2px solid #f2f2f2;
+    height: 60px;
+}
+
+.nav-delivery>h5{
+    font-weight: 900;
+    margin-top: 10px;
+}
+.nav-delivery>p{
+    font-size: 13px;
+}
+#my-search{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border:1px solid #f2f2f2; ;
+    padding-inline: 10px;
+}
+
+#my-search>input{
+    border: none;
+    width: 40vw;
+    height:50px;
+    background-color: transparent;
+}
+
+.my-cart-btn{
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+.my-btn-1{
+    color: rgb(153,153,153);
+}
+.my-scrollable-container-1{
+    width: 85vw;
+    margin: auto;
+    
+}
+.list{
+ white-space: nowrap;
+ overflow-x: scroll;
+ /* overflow-y: scroll; */
+}
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.list>img{
+    display: inline-block;
+    margin: 10px;
+    
+}
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-inline: 6.5vw;
+}
+
+.category{
+    width: 85vw;
+    margin: auto;
+}
+
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+    margin-inline: 10px;
+    
+    
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+
+.time{
+    background-color: #f2f2f2;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.product__weight{
+    font-size: 13px;
+    color: #666666;
+}
+
+.made{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+}
+footer{
+    width: 85vw;
+    margin: auto;
+    background-color: beige;
+    border-radius: 15px;
+    margin-top:50px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+@media screen and (max-width:480px){
+    #hero-section{
+        display: none !important;
+    }
+    #navbar{
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    
+    .vertical-line{
+        display: none;
+    }
+    #my-search{
+        width: 90vw;
+    }
+    #navbar{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: static;
+    }
+}
